@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
 import AppContext from "../context/context";
-import { useContext } from "react";
 
 const Header = () => {
   const { currency } = useContext(AppContext);
